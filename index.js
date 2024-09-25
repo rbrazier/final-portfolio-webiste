@@ -1,6 +1,6 @@
-var password=" ";
+var password="a";
 var pass1="AD14";
-while (password=" "){
+while (password="a"){
     password=prompt("Enter password to view my portoflio - hint the letter code on the comp sci door","");
     if (password=pass1){
         alert("correct password, click ok to enter");
