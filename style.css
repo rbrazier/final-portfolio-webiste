@@ -1,15 +1,17 @@
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
-
-h1{
+.h1{
     font-size: 40px;
     font-family:"Jacques Francois Shadow" ;
     color: #20C20E;
-padding-left: 35%;
+    padding-left: 35%;
 }
 .jacques-francois-shadow-regular {
     font-family: "Jacques Francois Shadow", serif;
     font-weight: 400;
     font-style: normal;
   }
+.button1{
+    background-color: #747e71;
+}
