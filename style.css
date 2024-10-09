@@ -1,6 +1,9 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-image: url(https://th.bing.com/th/id/R.c331b73e7d480a999cfb46de7c02390a?rik=Uq7TuCABQ5bmPQ&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f14%2f14%2fMyEhQa.jpg&ehk=tC11FeZj6VweEN1qJI9BZtDg0%2f%2bnHBUAAj4gR5agsvk%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
+
 .mainpagehead{
     font-size: 55px;
     font-family:"Jacques Francois Shadow" ;
@@ -25,7 +28,7 @@ body{
 
 }
 .blink_me {
-  animation: blinker 3.5s linear infinite;
+  animation: blinker 3s linear infinite;
 }
   
 @keyframes blinker {
@@ -34,12 +37,24 @@ body{
   }
 }
 .button2{
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 50px;
     border-color: rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
     border-width: 0px;
+    color:#800080
 }
-.homeimage{
-    height: 50px;
-    width: 70px;
+
+.button3{
+    margin-left: -40px;
+    margin-top: 100px;
+    font-size: 20px;
+    border-width: 0px;
+    background-color: #000000;
+    color: #800080;
+    position: absolute;
+}
+.navmenu{
+    padding: 10px;
+    background-color: black;
 }
